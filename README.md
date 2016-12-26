@@ -52,7 +52,7 @@ https://docs.docker.com/engine/examples/mongodb/
 
 
 # My history command:
-docker build - < Dockerfile -t tatchu/bizzon:v1
-docker run -i -t -p 27017:27017 tatchu/bizzon:v1
-docker commit -m "Upload image mongodb" -a "The Boss" d63e8147d158 tatchu/bizzon:v1
-docker push tatchu/bizzon
+- docker build - < Dockerfile -t tatchu/bizzon:v1
+- docker run -i -t -p 27017:27017 tatchu/bizzon:v1
+- docker commit -m "Upload image mongodb" -a "The Boss" d63e8147d158 tatchu/bizzon:v1
+- docker push tatchu/bizzon
